@@ -1,0 +1,10 @@
+{
+  "student" : {
+    "id" : 1,
+    "name" : "DavidNguyen",
+    "age" : 21
+  },
+  "name" : "PhuocNguyen",
+  "verified" : true,
+  "marks" : [ 1, 2, 3 ]
+}

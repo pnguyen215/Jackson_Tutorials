@@ -1,0 +1,35 @@
+ - Step 1: Create ObjectMapper object.
+ 					ObjectMapper objectMapper = new ObjectMapper();
+ 					
+ - Step 2: DeSerialize JSON to Object.
+(Use readValue() method to get the Object from the JSON. Pass JSON string/ source of JSON string and object type as parameter.)
+					Student student = objectMapper.readValue(stringJson, Student.class);
+- Step 3: Serialize Object to JSON.
+(Use writeValueAsString() method to get the JSON string representation of an object.)
+					stringJson = objectMapper.writerWithDefaultPrettyPrinter()
+					.writeValueAsString(student); /* Object to JSON Conversion */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

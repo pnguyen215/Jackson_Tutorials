@@ -1,0 +1,8 @@
+
+- NOW, we will practice with JSON data through read and write method by using object to handle
+
+
+			ObjectMapper objectMapper = new ObjectMapper();
+			objectMapper.writerWithDefaultPrettyPrinter().writeValue(file, student);
+			
+			-> Allow you write contents JSON data format by following PrettyPrinter

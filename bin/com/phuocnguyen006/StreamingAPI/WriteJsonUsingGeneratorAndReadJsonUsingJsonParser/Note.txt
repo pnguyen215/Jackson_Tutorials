@@ -1,0 +1,4 @@
+	- Streaming API reads and writes JSON content as discrete events. JsonParser reads the data whereas JsonGenerator writes the data. It is most powerful approach among the three and is of lowest overhead and fastest in read/write operations.
+	- we'll show-case using JACKSON streaming APIs to read and write JSON data. Streaming API works with concept of token and every details of Json is to be handle carefuly. Following are two class which we'll use in the examples:
+			+ JsonGenerator - Write to JSON String.
+			+ JsonParser - Parse JSON String.

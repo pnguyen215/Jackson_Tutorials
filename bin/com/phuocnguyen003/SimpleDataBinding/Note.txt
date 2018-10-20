@@ -1,0 +1,8 @@
+- Data Binding API is used to convert JSON to and from POJO (Plain Old Java Object) using property accessor or using annotations. It is of two type.
+
+
+	+ Simple Data Binding - Converts JSON to and from Java Maps, Lists, Strings, Numbers, Booleans and null objects.
+	+ Full Data Binding - Converts JSON to and from any JAVA type.
+	
+	
+- In this case, we are practicing with Simple Data Binding!

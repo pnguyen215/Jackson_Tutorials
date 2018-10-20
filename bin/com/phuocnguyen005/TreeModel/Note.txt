@@ -1,0 +1,19 @@
+- Create Tree from JSON
+
+
+		//Create an ObjectMapper instance
+		ObjectMapper object = new ObjectMapper();	
+		String jsonString = "{\"name\":\"PhuocNguyen\", \"age\":21,\"verified\":false,\"marks\": [100,90,85]}";
+		//create tree from JSON
+		JsonNode rootNode = object.readTree(jsonString);
+		
+		
+- Traversing Tree Model
+
+		String jsonString = "{\"name\":\"PhuocNguyen\", \"age\":21,\"verified\":false,\"marks\": [100,90,85]}";	
+			
+		JsonNode nameNode = rootNode.path("name");
+		System.out.println("Name: "+ nameNode.textValue());
+		
+		JsonNode marksNode = rootNode.path("marks");
+		Iterator<JsonNode> iterator = marksNode.elements();

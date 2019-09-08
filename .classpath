@@ -5,8 +5,5 @@
 	<classpathentry exported="true" kind="lib" path="D:/Program Files/jackson/jackson-annotations-2.9.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/Program Files/jackson/jackson-core-2.9.7.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/Program Files/jackson/jackson-databind-2.9.7.jar"/>
-	<classpathentry kind="lib" path="/media/david/Programming/Program Files/jackson/jackson-annotations-2.9.0.jar"/>
-	<classpathentry kind="lib" path="/media/david/Programming/Program Files/jackson/jackson-core-2.9.7.jar"/>
-	<classpathentry kind="lib" path="/media/david/Programming/Program Files/jackson/jackson-databind-2.9.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
